@@ -6,6 +6,7 @@ double result;
 double n1,n2;
 double x,y; // CHANGED
 char q,operation;
+//Test
 
 int main()
   {
