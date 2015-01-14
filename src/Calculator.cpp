@@ -10,7 +10,12 @@ int main()
    char operation;
  
    // Get numbers and mathematical operator from user input
-   cin >> a >> operation >> b;
+   cout<< "Zahl eingeben:\n";
+   cin >> a;
+   cout<<"naechste Zahl:\n";
+   cin >> b;
+   cout<<"Operator:\n";
+   cin >> operation;
 
    // Character constants are enclosed in single quotes
    switch(operation)
@@ -18,7 +23,9 @@ int main()
    case '+':
          result = a + b;
          break;
-
+   case '-':
+         result=a-b;
+         break;
    default:
          cout << "Invalid operation. Program terminated." << endl;
          return -1;
