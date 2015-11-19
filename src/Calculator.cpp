@@ -1,5 +1,7 @@
 // CalculatorSwitch.cc
 // Simple arithmetic calculator using switch() selection.
+// Initial version for WS 2015
+// Only for teaching - no real project
 
 #include <iostream>
 using namespace std;
