@@ -13,27 +13,34 @@ int main()
  
    // Get numbers and mathematical operator from user input
    cout<< "Zahl eingeben:\n";
-   cin >> a;
+   cin >> a; //Erste werte eingeben
    cout<<"naechste Zahl:\n";
-   cin >> b;
+   cin >> b; // zweite Werte eingeben
    cout<<"Operator:\n";
-   cin >> operation;
+   cin >> operation; // Der Operand wählen
 
    // Character constants are enclosed in single quotes
    switch(operation)
    {
    case '+':
-         result = a + b;
+         result = a + b; // Durchfuerung eine Addiktion
          break;
    case '-':
-         result=a-b;
+         result=a-b; // Durchfuerung eine Subtraktion
          break;
+   case '*':
+         result=a*b; // Durchfuerung eine  Multiplikation  
+         break;
+   case '/':
+         result=a/b; // Durchfuerung eine Division
+         break;
+         
    default:
          cout << "Invalid operation. Program terminated." << endl;
          return -1;
    }
 
    // Output result
-   cout << result << endl;
+   cout <<a<<operation<<b<<"="<<result<< endl;
    return 0;
 }
